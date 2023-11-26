@@ -1,0 +1,67 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 80px;
+  box-shadow: 0px 2px 20px 1px rgb(183, 183, 183);
+}
+
+
+.header-logo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+
+.header-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.header__options {
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__option {
+  font-weight: 500;
+  margin-left: 100px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+.header__bar__icons {
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+
+#header__bar img {
+  height: 20px;
+  width: 20px;
+  margin: 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-logo {
+    margin-right: -50px;
+  }
+
+  .header {
+    padding: 0px 10px;
+  }
+
+  .header__option {
+    font-size: 0.9rem;
+  }
+}
