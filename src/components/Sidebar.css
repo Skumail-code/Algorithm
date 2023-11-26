@@ -56,11 +56,11 @@ select {
 @media only screen and (max-width: 600px) {
   .sidebar {
     height: 40px;
-    width: 100%;
+    width: 110%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 2px 10px 1px lightgrey;
+    /* box-shadow: 0px 2px 10px 1px lightgrey; */
   }
 
   .slider {

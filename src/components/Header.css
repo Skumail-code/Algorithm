@@ -54,7 +54,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .header-logo {
-    margin-right: -50px;
+    margin-right: 0px;
   }
 
   .header {
